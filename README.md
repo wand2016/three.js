@@ -1,3 +1,16 @@
+# Run
+
+```sh
+docker container run --rm -d -v ${PWD}:/usr/local/apache2/htdocs -p 8080:80 httpd:2.4
+```
+
+then, access to http://localhost:8080/examples/webgl_loader_3mf.html
+
+
+
+
+----------------------------------------
+
 three.js
 ========
 
